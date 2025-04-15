@@ -1,0 +1,178 @@
+body {
+    font-family: 'Georgia', serif;
+    body {
+      background: linear-gradient(135deg, 
+        #d6f5d6, 
+        #fff9cc, 
+        #cceeff
+      );
+      background-attachment: fixed;
+      background-size: cover;
+      min-height: 100vh;
+    }
+    scroll-behavior: smooth;
+  }
+  
+  .hero-section {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)),
+                url('https://via.placeholder.com/1200x600?text=Dumreja+Hero+Image') center/cover no-repeat;
+    min-height: 100vh;
+  }
+  
+  .placeholder-img {
+    height: 200px;
+    width: 100%;
+    background-color: #ccc;
+    border-radius: 6px;
+  }
+  
+  section h2 {
+    font-family: 'Georgia', serif;
+    color: #3e4d3f;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    color: #4a4a4a;
+  }
+  
+  footer {
+    background-color: #fafafa;
+  }
+  
+  #hyrjaCarousel .carousel-item {
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #3b3b3b;
+    background-color: #f8f8f5;
+  }
+  
+  #hyrjaCarousel h4 {
+    color: #395144;
+    font-weight: bold;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 2rem;
+    height: 2rem;
+  }
+  .navbar {
+    background-color: #3b514b; /* soft pastel teal */
+    border-radius: 0 0 1rem 1rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  .carousel-slide-image {
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+  }
+
+  .carousel-slide-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+  }
+
+  .carousel-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.632);
+    z-index: 1;
+  }
+
+  .carousel-caption-custom {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  .carousel-item{
+    margin-bottom: 3px;
+  }
+  .navbar .nav-link {
+    color: #ffffff;
+    font-weight: 500;
+    transition: background 0.4s ease, color 0.4s ease;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+  }
+  
+  .navbar .nav-link:hover,
+  .navbar .nav-link:focus,
+  .navbar .nav-link:active{
+  background-color: #fff9cc71;
+  color: white;
+  text-decoration: none;
+  transition: background 0.4s ease;
+}
+
+  
+  .navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  .navbar-brand:hover {
+    color: white;
+    font-weight: bolder;
+  }
+  .placeholder-img {
+    height: 250px;
+    overflow: hidden;
+  }
+
+  .placeholder-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+  }
+  .modal-content {
+    background-color: #fffbe6; /* pastel yellow */
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  }
+
+  .modal-header {
+    background-color: #fff3cd; /* light yellow */
+    border-bottom: none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .modal-title {
+    font-weight: 600;
+    color: #3c3c3c;
+  }
+
+  .modal-body {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+  }
+
+  .modal-body ul {
+    padding-left: 1.2rem;
+  }
+
+  .modal-body li {
+    margin-bottom: 0.5rem;
+  }
+
+  .btn-close {
+    filter: brightness(0.5);
+  }
